@@ -1,0 +1,21 @@
+{
+    "appName": "prescription",
+    "roleName": "pinpointLambdaRole03c3e24c",
+    "cloudformationPolicyName": "cloudformationPolicy03c3e24c",
+    "cloudWatchPolicyName": "cloudWatchPolicy03c3e24c",
+    "pinpointPolicyName": "pinpointPolicy03c3e24c",
+    "authPolicyName": "pinpoint_amplify_03c3e24c",
+    "unauthPolicyName": "pinpoint_amplify_03c3e24c",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

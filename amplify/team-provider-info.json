@@ -1,0 +1,20 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-prescription-dev-162839-authRole",
+            "UnauthRoleArn": "arn:aws:iam::021616992388:role/amplify-prescription-dev-162839-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::021616992388:role/amplify-prescription-dev-162839-authRole",
+            "Region": "ap-northeast-1",
+            "DeploymentBucketName": "amplify-prescription-dev-162839-deployment",
+            "UnauthRoleName": "amplify-prescription-dev-162839-unauthRole",
+            "StackName": "amplify-prescription-dev-162839",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:021616992388:stack/amplify-prescription-dev-162839/90c8bd50-0ae7-11eb-9764-0eacaab34bb8",
+            "AmplifyAppId": "d36ogfctsrppcu"
+        },
+        "categories": {
+            "auth": {
+                "prescriptione6de8914": {}
+            }
+        }
+    }
+}

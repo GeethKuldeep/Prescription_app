@@ -1,0 +1,22 @@
+{
+	"auth": {
+		"prescriptione6de8914": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false
+		}
+	},
+	"analytics": {
+		"prescription": {
+			"service": "Pinpoint",
+			"providerPlugin": "awscloudformation"
+		}
+	},
+	"storage": {
+		"s3fd1368a1": {
+			"service": "S3",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}
